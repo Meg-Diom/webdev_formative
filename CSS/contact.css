@@ -1,0 +1,124 @@
+main > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+main > p {
+  max-width: 850px;
+  margin: 0 auto 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 0 20px;
+}
+
+.first-section {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  padding: 35px 25px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  text-align: center;
+}
+.first-section h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.first-section a {
+  display: inline-block;
+  background-color: #087E8B;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 	background-color 0.3s ease;
+  margin: 8px;
+  font-weight: bold;
+}
+.first-section a:hover {
+  background-color: #173B45;
+}
+
+.second-section {
+  max-width: 850px;
+  margin: 0 auto 60px;
+  padding: 35px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.second-section h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.second-section form section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.second-section label {
+  font-weight: bold;
+  color: #173B45;
+  text-align: left;
+  margin-top: 10px;
+}
+.second-section input[type="text"],
+.second-section input[type="email"],
+.second-section select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #D1DCDC;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+}
+.second-section textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #D1DCDC;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 150px;
+}
+.second-section input[type="text"]:focus,
+.second-section input[type="email"]:focus,
+.second-section select:focus,
+.second-section textarea:focus {
+  outline: none;
+  border-color: #087E8B;
+  box-shadow: 0 0 0 3px rgba(8, 126, 139, 0.12);
+}
+.second-section input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  align-self: flex-start;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.second-section label[for="newsletter"] {
+  font-weight: normal;
+  cursor: pointer;
+  margin-top: 0;
+}
+.second-section button {
+  background-color: #F4b942; 
+  color: #173B45;
+  padding: 14px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+.second-section button:hover {
+  background-color: #087E8B;
+  color: white;
+}
