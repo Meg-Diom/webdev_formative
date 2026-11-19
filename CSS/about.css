@@ -1,0 +1,107 @@
+main > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+main > p {
+  max-width: 850px;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.profile-photo {
+  display: block;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin: 0 auto 40px;
+  border: 5px solid white;
+  box-shadow: 	0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 50px;
+}
+.first-section {
+  background-color: white;
+  padding: 35px;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.first-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.first-section p {
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.second-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+.second-section > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.second-section h3 {
+  font-size: 22px;
+  color: #087E8B;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.second-section ol {
+  padding-left: 25px;
+  line-height: 2;
+}
+.second-section li {
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+.third-section {
+  background-color: #087E8B;
+  color: white;
+  padding: 50px 30px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+.third-section h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+.third-section a {
+  display: inline-block;
+  background-color: #F4B942;
+  color: #173B45;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+.third-section a:hover {
+  background-color: white;
+  color: #087E8B;
+}
+.third-section p {
+  max-width: 750px;
+  margin: 25px auto 0;
+  line-height: 1.8;
+}
+
