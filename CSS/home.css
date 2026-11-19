@@ -45,14 +45,49 @@
 }
 
 .second-section {
-  padding: 50px 0;
+  padding: 70px 20px;
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.second-section div {
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+.second-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.second-section > p {
+  max-width: 850px;
+  margin: 0 auto 20px;
+  font-size: 17px;
+  line-height: 1.8;
+}
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+.facts-container div {
   background-color: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.facts-container div {
+  transform: translateY(-5px)
+}
+.facts-container div p span {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #087E8B;
+}
+.facts-container div p {
+  font-size: 16px;
+  font-weight: 500px;
 }
 .third-section {
   background-color: white;
@@ -64,7 +99,21 @@
   width: 100%;
   height: 400px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.third-section h2 {
+  margin-left: 20px;
+}
+.third-section h3 {
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+.third-section p {
+  margin-left:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .forth-section {
   padding: 50px 0;
