@@ -38,7 +38,7 @@ header {
 header .logo {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	width: 200px;
+	width: 300px;
 }
 
 header img {

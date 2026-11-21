@@ -21,7 +21,7 @@ main > p {
   box-shadow: 	0 4px 12px rgba(0,0,0,0.15);
   border-radius: 50px;
 }
-.first-section {
+.first-section > div {
   background-color: white;
   padding: 35px;
   border-radius: 12px;
@@ -40,6 +40,11 @@ main > p {
   line-height: 1.8;
   text-align: justify;
 }
+/*.first-section > div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+} */
 
 .second-section {
   padding: 40px 20px;
